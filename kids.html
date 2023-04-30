@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids World</title>
+    <!--css folder-->
+    <link href="css/kids.css" type="text/css" rel="stylesheet"/>
+    <!--font awesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+    <div class="page">
+        <div class="column">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="">
+                <h1>Kids World</h1>
+            </div>
+        </div>
+        <div class="links">
+            <ul >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#About-children">About children</a></li>
+                <li><a href="#contactus">ContactUs</a></li>
+            </ul>
+            <button onclick="hideshow4()"><i class="fa-solid fa-bars"></i></button>
+            
+        </div>
+        <div class="popup" id="links" style="display: none;">
+            <ul >
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#About-children">About children</a></li>
+                <li><a href="#contactus">ContactUs</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="land-image">
+        <img src="images/childrenDay.jpeg" alt="">
+        <div class="land-image-text">
+            <h2>Kids World Idea</h2>
+            <p>Kids-World website gathers all the ways of entertainment for kids in a useful manner that helps the child to get skills according to child age</p>
+        </div>
+    </div>
+    <!--STARTING SERVICES-->
+
+<div class="services" id="services">
+    <div class="container">
+        <h2 class="special-designs">services</h2>
+        <p>The earth reveals its innocence through the smiles of children</p>
+    <div class="services-content">
+        <div class="column">
+            <div class="srv">
+                    <div class="text">
+                        <h3>Stories</h3>
+                        <p>Kids-World website provides children with some stories that have morals and teach them how to deal with people in the life</p>
+                    </div>
+            </div>
+        </div>
+         <div class="column">
+            <div class="srv">
+                <i class="fa-sharp fa-solid fa-game-board-simple"></i>
+                <div class="text">
+                    <h3>Games</h3>
+                    <p> Kids-World website gathers some games that help the child how to think in different ways these offline games to help him to communicate with other kids and keep away from mobile phones that causes alot of damages if it is used incorrectly</p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="srv">
+                    <div class="text">
+                        <h3>Cartoons</h3>
+                        <p>Kid-World provides the child with some videos that are useful to him and this prevents him to access videos indecent for any child</p>                                                                    </div>
+                    </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+    
+                                <!--end of services-->
+<!--start of portofolio-->
+<div class="portofolio" id="portofolio">
+    <div class="container">
+        <h2 class="special-designs">portofolio</h2>
+        <p>Click at any image to see the details.</p>
+        <div class="portofolio-content">
+            <div class="column">
+                <div class="porto">
+                    <button onclick="hideshow1()"><img class="image" src="images/story.webp" alt=""></button>
+                    <div class="text">
+                        <h3>Stories</h3>
+                    </div>
+                    <div id="EOS1"class="EOS" style="display: none;" >
+                        <div class="example-one">
+                            
+                            <pre><img src="images/story1.jpg" alt=""><b > The Tortoise and the Hare</b></pre>
+                            <p>This is an extremely popular story about a hare and a tortoise.
+                                The hare is an animal that is known to move quickly, while a tortoise is one to move slowly.
+                                One day, the hare challenged the tortoise to a race simply to prove that he was the best. The tortoise agreed.
+                                Once the race began the hare was easily able to get a head start. Upon realizing that the tortoise is far behind. The overconfident hare decided to take a nap.
+                                Meanwhile the tortoise, who was extremely determined and dedicated to the race was slowly nearing the finish line.
+                                The tortoise won the race while the hare napped. Most importantly he did it with humility and without arrogance.</p>
+                            <pre><b>Moral of the story</b></pre>
+                            <p>When you work hard and persevere, you can achieve your goals. Slow and steady wins the race.</p>
+                        </div>
+                        <div class="example-two">
+                            <pre><b>Stop wasting your time complaining</b> </pre>
+                            <p>A wise man received a stream of visitors complaining about the same problems over and over again. One day, he decided to tell them a joke and they all roared with laughter.
+                
+                                After a few minutes, he told them the same joke and only a few of them smiled.
+                                
+                                He told the same joke a third time, but no one laughed or smiled anymore.
+                                
+                                The wise man smiled and said: ‘You can’t laugh at the same joke over and over, so why lament the same problem?’</p>
+                            <pre>Moral of the story</pre>
+                            <p> focus on the good instead of the bad and enjoy a positive attitude</p>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+            <div class="column">
+                <div class="porto">
+                    <button onclick="hideshow3()"><img src="images/cartoon.jpeg"/></button>
+                    <div class="text">
+                        <h3>Cartoons</h3>   
+                    </div>
+                    <div class="EOS" id="EOS3" style="display: none;" >
+                        <div class="example-one">
+                            <pre><img src="images/nemo.webp" alt="">Nemo</pre>
+                            <p> There are many messages skillfully addressed in this movie. The three morals that are very important are 'the importance of teamwork', 'your difference do not define you', and 'your parents will never give up on you'.</p>
+                            <video controls autoplay muted loop  width="100%" src="videos/IMG_1608.MP4" ></video>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="column">
+                <div class="porto">
+                    <button onclick="hideshow2()"><img src="images/lego.jpg"/></button>
+                    <div class="text">
+                        <h3>Games</h3>
+                    </div>
+                        <div class="EOS" id="EOS2" style="display: none;" >
+                            <div class="example-one">
+                                <pre><img src="images/chess.png" alt=""> Chess</pre>
+                                <p> Many chess experts believe that most top chess players peak somewhere around age 35-40 <br>a game played between two opponents on opposite sides of a board containing 64 squares of alternating colors. Each player has 16 pieces: 1 king, 1 queen, 2 rooks, 2 bishops, 2 knights, and 8 pawns. The goal of the game is to checkmate the other king.</p>
+                            </div>
+                            <div class="example-two">
+                                <pre><img src="images/legoex_.jpg" alt="">Lego games</pre>
+                                <p> This games suitable for + 9 years old <br> Overview. The theme focuses on a series of playable games of different types, all of which use Lego bricks, and use the Lego concept of building to encourage players to change and adapt the rules of the games.</p>
+                                
+                            </div>
+                        </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--end of portofolio-->
+<!--Start importance of children-->
+<div class="about-children" id="About-children">
+    <div class="container">
+        <h3 class="special-designs">About Children</h3>
+        <p>Children is more important in our life for many reasons</p>
+    </div>
+    
+    <div class="reasons">
+        <p><i class="fa-sharp fa-solid fa-comment-dots"></i>They give us so much joy and make us laugh</p>
+        <p>They tell us the truth and teach us some of the most transcendent lessons in life.</p>
+        <p><i class="fa-sharp fa-solid fa-comment-dots"></i>“A child's smile is worth more than all the money in the world.” –</p>
+        <p>“Pure happiness is found in nothing but in the innocent smile of a baby.”</p>
+        <p><i class="fa-sharp fa-solid fa-comment-dots"></i>more than that, children also represent the only chance that humanity must remain on the planet.</p>
+        <p>kids make us cheerful</p>
+        
+    </div>
+    <video style="grid-column: 2/4;" controls autoplay muted loop  width="100%">
+        <source src="videos/IMG_1604.MP4" type="video/MP4">
+    </video>
+    
+</div>
+<div id="contactus" class="footer">&copy; made by : مريهان فريد المتولي ابراهيم حماد  <br>set number:4441<br><span>Kids World</span> </div>
+<!--End importance of children-->
+
+    <script src="javascript/jquery-3.6.3.min.js"></script>
+    <script src="javascript/kidsworld.js"></script>
+</body>
+</html>
